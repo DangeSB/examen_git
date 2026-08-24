@@ -47,5 +47,25 @@ main {
     align-items: center; 
 }
 .imagenes img { 
-    width: 325px; 
+   width: 200px;         
+    height: 200px;        
+    margin: 5px;         
+    border-radius: 40px;
+}
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+main table th, 
+main table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+main table thead tr {
+    background-color: #333;
+    color: white;
 }
